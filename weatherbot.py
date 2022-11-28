@@ -46,6 +46,11 @@ def preform_user_command(message):
         msg=show_full_forecast(glob_weather)
         weatherBot.reply_to(message,msg)
         show_full=False
+    
+    elif user_msg in ["לא","no"] and show_full:
+        msg="בסדר גמור"
+        weatherBot.reply_to(message,msg)
+        show_full=False
 
     #after knowing it's not string
     elif city != None:
@@ -57,9 +62,9 @@ def preform_user_command(message):
         msg="מעוניין לראות תחזית מלאה?"
         time.sleep(1)
         weatherBot.reply_to(message,msg)
-        
+    
     else:
-        msg="you are an idiot please write something usefull"
+        msg="לא יודע מה לעשות עם מה שאמרת, בבקשה תרשום ערים או מספר עיר כדי להתחיל"
         weatherBot.reply_to(message,msg)
 
 def get_city(msg):
