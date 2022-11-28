@@ -1,0 +1,82 @@
+[
+    {
+    "id": 293703,
+    "name": "Rishon Leziyon",
+    "state": "",
+    "country": "IL",
+    "coord": {
+        "lon": 34.75,
+        "lat": 31.97
+        }
+    },
+    {
+    "id": 293725,
+    "name": "Rehovot",
+    "state": "",
+    "country": "IL",
+    "coord": {
+        "lon": 34.81,
+        "lat": 31.89
+        }
+    },
+    {
+        "id": 294999,
+        "name": "Givatayim",
+        "state": "",
+        "country": "IL",
+        "coord": {
+            "lon": 34.81,
+            "lat": 32.06
+        }
+    },
+    {
+        "id": 295548,
+        "name": "Bat Yam",
+        "state": "",
+        "country": "IL",
+        "coord": {
+            "lon": 34.75,
+            "lat": 32.02
+        }
+    },
+    {
+    "id": 293918,
+    "name": "Petah Tiqva",
+    "state": "",
+    "country": "IL",
+    "coord": {
+        "lon": 34.89,
+        "lat": 32.09
+            }
+    },
+    {
+        "id": 294074,
+        "name": "Ness Ziona",
+        "state": "",
+        "country": "IL",
+        "coord": {
+            "lon": 34.80,
+            "lat": 31.93
+                }
+    },
+    {
+        "id": 294075,
+        "name": "Be'er Sheva",
+        "state": "",
+        "country": "IL",
+        "coord": {
+            "lon": 34.79,
+            "lat": 31.25
+                }
+    },
+    {
+        "id": 294075,
+        "name": "Holon",
+        "state": "",
+        "country": "IL",
+        "coord": {
+            "lon": 34.78,
+            "lat": 32.01
+                }
+    }
+]
