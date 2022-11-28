@@ -37,7 +37,7 @@ def preform_user_command(message):
     city=get_city(user_msg)
 
     if user_msg in ["ערים","show cities","cities","ערים אחי"]:
-        msg="Choose your city's number"
+        msg="☀️Choose your city's number⛈️"
         for city in cities_arr:
             msg+="\n"+str(city["order"])+")   "+city["name"]
         weatherBot.reply_to(message,msg)
