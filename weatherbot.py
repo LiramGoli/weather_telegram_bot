@@ -17,7 +17,7 @@ with open('city_list.json') as cities:
         city_dict={"id":0,"name":"","order":0,"lat":0,"lon":0}
         city_dict["name"]=city["name"]
         city_dict["id"]=city["id"]
-        city_dict["order"]=i+1
+        city_dict["order"]=i+1  
         city_dict["lat"]=city["coord"]["lat"]
         city_dict["lon"]=city["coord"]["lon"]
         cities_arr.append(city_dict)
@@ -159,11 +159,5 @@ def show_full_forecast(weather):
     for weth in weather["hourly_weather"]:
         msg+=f"""שעה: {weth["hour"]}:00 , טמפ:{weth["temp"]}, סיכוי לגשם:{weth["rain"]}\n"""
     return msg
-
-
-    
-
-
-
 
 weatherBot.polling()
